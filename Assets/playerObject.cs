@@ -26,6 +26,6 @@ public class playerObject : MonoBehaviour {
 			transform.position += new Vector3 (-20, 0, 0) * Time.deltaTime;
 			transform.eulerAngles = new Vector3 (0, -180, 0);
 		}
-		Camera.main.transform.position = transform.position + new Vector3 (0, 8, 0);
+		Camera.main.transform.position = transform.position + new Vector3 (0, 15, 0);
 	}
 }
